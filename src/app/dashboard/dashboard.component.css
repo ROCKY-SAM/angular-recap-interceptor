@@ -1,0 +1,30 @@
+.user-card {
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .user-card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333; /* Dark text color */
+  }
+  
+  .user-card p {
+    margin-bottom: 8px;
+  }
+  
+  .user-card p:nth-child(even) {
+    color: #007bff; /* Blue color for even-numbered paragraphs */
+  }
+  
+  .user-card p:nth-child(odd) {
+    color: #28a745; /* Green color for odd-numbered paragraphs */
+  }
+  
+  .user-card hr {
+    border-color: #ccc; /* Light gray border color */
+  }

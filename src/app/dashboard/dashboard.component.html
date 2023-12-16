@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div *ngFor="let user of users" class="user-card">
+            <h2>{{ user.firstName }} {{ user.middleName }} {{ user.lastName }}</h2>
+            <p>User ID: {{ user.userId }}</p>
+            <p>Mobile Number: {{ user.mobileNo }}</p>
+            <p>Office Number: {{ user.altMobileNo }}</p>
+            <p>Email Address: {{ user.emailId }}</p>
+            <hr>
+          </div>        
+    </div>
+</div>
